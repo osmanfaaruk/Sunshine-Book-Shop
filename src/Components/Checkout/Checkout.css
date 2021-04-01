@@ -1,0 +1,12 @@
+/* body{
+    color:white;
+} */
+.checkout-bar{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.checkout-details{
+    margin-top: 5%;
+    margin-left: 15%;
+}

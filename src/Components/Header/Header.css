@@ -1,0 +1,11 @@
+.header-component {
+    margin-left: 45%;
+}
+.header-component li{
+    font-size: 20px;
+}
+.header-name{
+    font-weight: 500;
+    margin-left: 10%;
+    font-size: 35px;
+}

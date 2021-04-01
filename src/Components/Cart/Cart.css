@@ -1,0 +1,17 @@
+.book-cart{
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+.cart-img{
+    border-radius: 5px;
+    background-color: #ced6e0;
+    padding: 20px;
+}
+.cost-part{
+    margin-top: 10px;
+    display: flex;
+}
+.buy-btn{
+    margin-left: 40%;
+}
