@@ -1,7 +1,4 @@
-/* body{
-    background-color: #2c2c54;
-    color:white;
-} */
+
 .home-cart{
     display: grid;
     grid-template-columns: 16% 16% 16% 16%;
@@ -9,4 +6,9 @@
 }
 .spinner{
    text-align: center;
+}
+@media screen and (max-width:480px){
+    .home-cart{
+        display: block;
+    }
 }

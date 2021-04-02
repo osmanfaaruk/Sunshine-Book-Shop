@@ -15,3 +15,8 @@
 .buy-btn{
     margin-left: 40%;
 }
+@media screen and (max-width:480px){
+    .book-cart{
+       margin-left: 19%;
+    }
+}

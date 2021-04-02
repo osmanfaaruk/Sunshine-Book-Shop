@@ -15,7 +15,7 @@ const Admin = () => {
             bookPrice: data.bookPrice,
             imageURL: imageURL,
         };
-        const url = `http://localhost:4000/addBook`
+        const url = `https://secret-plateau-74341.herokuapp.com/addBook`
         
         // console.log(bookData)
         fetch(url, {

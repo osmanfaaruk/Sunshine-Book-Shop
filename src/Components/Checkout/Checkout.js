@@ -30,7 +30,7 @@ const Checkout = () => {
             imageURL: checkoutBook.imageURL,
             date: (new Date().toDateString("dddd, mmmm, yyyy"))
         })
-        fetch('http://localhost:4000/orders', {
+        fetch('https://secret-plateau-74341.herokuapp.com/orders', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newCheckout)
@@ -41,7 +41,7 @@ const Checkout = () => {
 
 
     useEffect(()=>{
-        const url = `http://localhost:4000/books/${bookId}`;
+        const url = `https://secret-plateau-74341.herokuapp.com/books/${bookId}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setCheckoutBook(data))

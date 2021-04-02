@@ -9,7 +9,7 @@ const ManageProduct = () => {
     const [manageBook, setManageBook] = useState([]);
 
     const handleDeleteBook = id =>{
-        fetch(`http://localhost:4000/delete/${id}`, {
+        fetch(`https://secret-plateau-74341.herokuapp.com/delete/${id}`, {
             method: "DELETE",
         })
         .then(res => res.json())
@@ -17,7 +17,7 @@ const ManageProduct = () => {
     }
 // onClick={()=> handleDeleteBook(book._id)}
     useEffect(()=>{
-        fetch('http://localhost:4000/books')
+        fetch('https://secret-plateau-74341.herokuapp.com/books')
         .then(res=> res.json())
         .then(data=> setManageBooks(data))
     },[manageBooks])
