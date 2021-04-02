@@ -9,7 +9,6 @@ const ManageProduct = () => {
     const [manageBook, setManageBook] = useState([]);
 
     const handleDeleteBook = id =>{
-        console.log(id);
         fetch(`http://localhost:4000/delete/${id}`, {
             method: "DELETE",
         })
@@ -40,7 +39,7 @@ const ManageProduct = () => {
                  {/* <th scope="row">1</th> */}
                 <td>{list.bookName}</td>
                 <td>{list.authorName}</td>
-                <td>{list.bookPrice}</td>
+                <td>${list.bookPrice}</td>
                 <td><button className="btn btn-success">
                 <FontAwesomeIcon icon={faEdit} />
                     </button></td>
