@@ -1,0 +1,9 @@
+.order-img img{
+    width: 80%;
+}
+.orderList-container{
+    margin-top: 50px;
+    color: white;
+    background-color:#485460;
+    width: 50%;
+}

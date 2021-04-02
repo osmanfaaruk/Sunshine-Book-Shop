@@ -5,8 +5,7 @@ import './Cart.css';
 const Cart = (props) => {
     const {imageURL, authorName, bookPrice, bookName, _id } = props.book;
     return (
-        
-        <div className="card book-cart" style={{width: '18rem'}}>
+        <div className="card book-cart shadow p-3 mb-5 bg-body rounded" style={{width: '18rem'}}>
          <div className="cart-img">
          <img src={imageURL} className="card-img-top" alt=""/>
          </div>

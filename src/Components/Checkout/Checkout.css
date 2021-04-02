@@ -7,6 +7,7 @@
     justify-content: center;
 }
 .checkout-details{
+    user-select: none;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 5%;
 }

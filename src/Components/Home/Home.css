@@ -7,3 +7,6 @@
     grid-template-columns: 16% 16% 16% 16%;
     justify-content: center;
 }
+.spinner{
+   text-align: center;
+}

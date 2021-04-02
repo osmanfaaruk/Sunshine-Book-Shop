@@ -4,10 +4,10 @@ import { useForm } from "react-hook-form";
 import './Admin.css';
 
 const Admin = () => {
-
+    document.title="Admin Panel";
     const { register, handleSubmit, watch, errors } = useForm();
     const [imageURL, setImageURL] = useState(null)
-
+    
     const onSubmit = data => {
         const bookData = {
             bookName: data.bookName,
@@ -43,9 +43,6 @@ const Admin = () => {
 
     return (
         <div className="admin-container">
-            <div className="selection-part">
-                <h1 style={{color:'#ff5252', marginTop:'10px'}}> Sunshine </h1>
-            </div>
             <div className=" container upload-part">
         <div className="upload-form">
         <form onSubmit={handleSubmit(onSubmit)}>
